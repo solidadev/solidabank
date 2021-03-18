@@ -20,11 +20,11 @@ contract('SolidaBank', ([deployer, user]) => {
   describe('testing token contract...', () => {
     describe('success', () => {
       it('checking token name', async () => {
-        expect(await token.name()).to.be.eq('Decentralized Bank Currency')
+        expect(await token.name()).to.be.eq('SolidaStake')
       })
 
       it('checking token symbol', async () => {
-        expect(await token.symbol()).to.be.eq('DBC')
+        expect(await token.symbol()).to.be.eq('SSTK')
       })
 
       it('checking token initial total supply', async () => {
